@@ -12,3 +12,4 @@ target_link_libraries(GTest::GTest INTERFACE gtest_main)
 
 add_executable(primer_test test_primer.cpp)
 target_link_libraries(primer_test PRIVATE GTest::GTest primer)
+
